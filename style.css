@@ -1,0 +1,17 @@
+/* นี่คือ Comment ใน CSS ครับ บรรทัดนี้จะไม่มีผลกับโค้ด */
+
+body {
+    background-color: #f0f2f5; /* เปลี่ยนสีพื้นหลังทั้งหน้าให้เป็นสีเทาอ่อนๆ */
+    font-family: sans-serif;   /* เปลี่ยนฟอนต์ทั้งหน้าให้ดูโมเดิร์นขึ้น */
+}
+
+h1 {
+    color: #1c1e21; /* เปลี่ยนสีหัวข้อหลักให้เป็นสีน้ำเงินเข้ม */
+    text-align: center; /* จัดให้หัวข้ออยู่ตรงกลาง */
+}
+
+nav ul {
+    list-style-type: none; /* เอากจุด Bullet Point หน้าเมนูออก */
+    text-align: center;
+    padding: 0;
+}
