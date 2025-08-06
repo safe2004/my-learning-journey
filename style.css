@@ -1,4 +1,7 @@
 /* นี่คือ Comment ใน CSS ครับ บรรทัดนี้จะไม่มีผลกับโค้ด */
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: #f0f2f5; /* เปลี่ยนสีพื้นหลังทั้งหน้าให้เป็นสีเทาอ่อนๆ */
@@ -11,7 +14,18 @@ h1 {
 }
 
 nav ul {
-    list-style-type: none; /* เอากจุด Bullet Point หน้าเมนูออก */
-    text-align: center;
+    list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
 }
