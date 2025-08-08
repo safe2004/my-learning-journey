@@ -1,4 +1,15 @@
 /* นี่คือ Comment ใน CSS ครับ บรรทัดนี้จะไม่มีผลกับโค้ด */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main section {
+        margin: 20px;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
